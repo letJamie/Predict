@@ -13,6 +13,7 @@
 		7D596DFD24EFAE74006A9941 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D596DFB24EFAE74006A9941 /* Main.storyboard */; };
 		7D596DFF24EFAE77006A9941 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D596DFE24EFAE77006A9941 /* Assets.xcassets */; };
 		7D596E0224EFAE77006A9941 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D596E0024EFAE77006A9941 /* LaunchScreen.storyboard */; };
+		7D7EED1524EFFCD300AB0153 /* TweetSentimentClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 7D7EED1424EFFCD300AB0153 /* TweetSentimentClassifier.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7D596DFE24EFAE77006A9941 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D596E0124EFAE77006A9941 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D596E0324EFAE77006A9941 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D7EED1424EFFCD300AB0153 /* TweetSentimentClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = TweetSentimentClassifier.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				7D596DFB24EFAE74006A9941 /* Main.storyboard */,
 				7D596DFE24EFAE77006A9941 /* Assets.xcassets */,
 				7D596E0024EFAE77006A9941 /* LaunchScreen.storyboard */,
+				7D7EED1424EFFCD300AB0153 /* TweetSentimentClassifier.mlmodel */,
 				7D596E0324EFAE77006A9941 /* Info.plist */,
 			);
 			path = Predict;
@@ -140,6 +143,7 @@
 			files = (
 				7D596DFA24EFAE74006A9941 /* ViewController.swift in Sources */,
 				7D596DF624EFAE74006A9941 /* AppDelegate.swift in Sources */,
+				7D7EED1524EFFCD300AB0153 /* TweetSentimentClassifier.mlmodel in Sources */,
 				7D596DF824EFAE74006A9941 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
